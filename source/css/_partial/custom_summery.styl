@@ -1,0 +1,27 @@
+//.post_summery
+    //margin: 0
+
+.content
+ .post-list
+  .post-summery //这里post_summery就是所有的a标签
+   margin-left: 18px
+   margin-right: 18px
+   padding: 10px 30px 10px 30px
+   color: $color-footer
+   display: -webkit-box;
+   -webkit-line-clamp: 3; //控制摘要最多显示多少行
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+   border: 0px dashed $color-block-border;
+   border-radius: 3px
+   text-decoration: none
+   //background-color: $color-block-background; // for test
+   font-size: 13px
+
+   a
+    color: $color-footer
+    remove-underline()
+
+    &:hover
+     //color: $color-link
+     color: $color-a-normal

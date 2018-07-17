@@ -44,9 +44,11 @@ body
     color: $color-text
     text-decoration: none
 
+    //移除超链接的下划线 lzg
     underline(5px, $color-text)
 
     &:hover
+      //移除超链接hover时的下划线
       background-image: linear-gradient(transparent, transparent 4px, $color-link 4px, $color-link)
 
   a.icon
@@ -110,6 +112,8 @@ body
 @import "_partial/footer"
 @import "_partial/pagination"
 @import "_partial/search"
+// add by lzg
+@import "_partial/custom_summery"
 // Code
 @import "_highlight/" + $highlight
 

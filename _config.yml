@@ -5,7 +5,7 @@
 # Link to a page that gives an overview of all your projects.
 # This can be an external link (e.g., to you GitHub profile) or to another
 # page within your website.
-projects_url: http://github.com/probberechts
+projects_url: http://github.com/farubaba
 
 # Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl', the 'vazir' font will be loaded.)
 direction: ltr
@@ -17,7 +17,7 @@ nav:
   home: /
   about: /about/
   articles: /archives/
-  projects: projects_url
+  projects: http://github.com/farubaba
 
 
 # Links to your social media accounts.
@@ -25,11 +25,15 @@ nav:
 # (see https://fontawesome.com/icons?d=gallery&s=brands);
 # only 'mail' is an exception.
 social_links:
-  github: http://github.com/probberechts/cactus-dark
-  twitter: /
-  facebook: /
+  github: http://github.com/farubaba
+  #twitter: /
+  #facebook: /
+  #linkedin: /
   linkedin: /
-  mail: mailto:name@email.com
+  weibo: /
+  weixin: /
+  qq: /
+  mail: mailto:farubaba@qq.com
 
 
 # Customize the overview with the most recent blog posts on the index page.
@@ -38,7 +42,7 @@ social_links:
 #   - post_count: whether to show only the x most recent posts.
 posts_overview:
   show_all_posts: false
-  post_count: 5
+  post_count: 10
 
 
 ##############################################################################
@@ -89,7 +93,8 @@ favicon:
 colorscheme: dark
 
 # Maximal width of the page in rem units.
-page_width: 48
+#page_width: 48
+page_width: 56
 
 
 ##############################################################################
@@ -129,4 +134,4 @@ baidu_analytics:
 # Fill in you Gravatar user id / email if you want to use your gravatar as the
 # logo and/or favicons of you website.
 gravatar:
-  email: name@email.com
+  email: farubaba@qq.com
