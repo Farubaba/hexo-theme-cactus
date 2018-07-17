@@ -37,14 +37,14 @@ A responsive, clean and simple [Hexo](http://hexo.io) theme for a personal websi
 1. In the `root` directory:
 
     ```git
-    $ git clone https://github.com/probberechts/hexo-theme-cactus.git themes/cactus
+    $ git clone https://github.com/Farubaba/hexo-theme-cactus-dark-green.git themes/cactus-dark-green
     ```
 
 2. Change the `theme` property in the `config.yml` file.
 
     ```yml
     # theme: landscape
-    theme: cactus
+    theme: cactus-dark-green
     ```
 
 3. Run: `hexo generate` and `hexo server`
