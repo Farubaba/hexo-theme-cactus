@@ -1,3 +1,6 @@
+//default is 1440, but is too big for my mac 1336 , can't display menu automatic.
+var document_width_large = 1280;
+
 /**
  * Sets up Justified Gallery.
  */
@@ -33,7 +36,7 @@ $(document).ready(function() {
     /**
      * Display the menu on hi-res laptops and desktops.
      */
-    if ($(document).width() >= 1440) {
+    if ($(document).width() >= document_width_large) {
       menu.css("visibility", "visible");
       menuIcon.addClass("active");
     }
