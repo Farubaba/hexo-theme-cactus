@@ -86,11 +86,15 @@ favicon:
 # The color scheme that should be used to highlight codeblocks.
 # See source/css/_highlight for a list of all available color schemes.
 # highlight: rainbow
+#highlight: androidstudio
+#highlight: github-gist
+#highlight: highlightjs
+highlight: xcode
 
 # Set the color scheme.
 # Available color schemes are 'dark', 'light', 'classic' and 'white'.
 # Alternatively, add your own custom color scheme to source/css/_colors.
-colorscheme: dark
+colorscheme: white
 
 # Maximal width of the page in rem units.
 #page_width: 48

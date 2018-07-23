@@ -21,18 +21,57 @@ article
       letter-spacing: .01em
       font-weight: 700
 
+      //lzg , because color was set in .meta * ,we can override it like below
+      span
+        color: $color-java-const
+
+
     .postdate
       display: inline
 
+
   .content
+    //*************************lzg 定义内容区域中所有的超链接样式**************//
+    *
+     a
+       color: $color-android-link
+       remove-underline()
+
+     &:hover
+       //color: $color-android-link
+
+     th
+       padding: 8px
+       border: 1px solid $color-border
+       color: $color-accent-2
+       font-weight: bold
+       font-size: $font-size - 1px
+
+     td
+       padding: 9px 8px 0
+       border: 1px solid $color-border
+
+    //*************************lzg add end**********************************//
+
     h2:before
       position: absolute
       top: -4px
       left: -1rem
-      color: $color-accent-1
+      //color: $color-accent-1
+      color: $color-java-comment
       content: "#"
       font-weight: bold
       font-size: 1.2rem
+
+    h1, h2, h3
+      //color: $color-java-comment
+      text-decoration: none //参考_extend.styl文件中h2 text-decoration: underline
+      remove-underline()
+
+    h4
+      //color: $color-red-1
+      text-decoration: none
+      remove-underline()
 
     img, video
       display: block
@@ -131,3 +170,19 @@ article
 
     &:before
       content: "|"
+
+
+
+
+//lzg 自定义右边菜单栏中的章节标题 [全局设置]
+#header-post
+  #menu
+    #toc
+      .toc
+        li
+          margin: 10px 0
+          color: $color-android-link
+          font-weight: bold
+
+
+
