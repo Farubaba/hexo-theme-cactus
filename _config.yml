@@ -106,6 +106,7 @@ page_width: 56
 ##############################################################################
 
 # Enable or disable the RSS feed.
+#rss: false
 rss: false
 
 # Turn your web pages into graph objects (see http://ogp.me).
@@ -122,7 +123,7 @@ open_graph:
 
 # Fill in your Disqus Comments Shortname to enable Disqus comments.
 disqus: 
-  enabled: false
+  enabled: true
   shortname: cactus-1
 
 # Fill in your Google Analytics tracking ID to enable Google Analytics.
