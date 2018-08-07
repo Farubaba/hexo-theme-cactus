@@ -37,12 +37,14 @@
     <% } %>
     <% show_posts.each(function(post, i){ %>
       <li class="post-item">
-        <%- partial('_partial/post/date', { post: post, class_name: 'meta' }) %>
-        <span><%- partial('_partial/post/title', { post: post, index: true, class_name: '' }) %></span>
-      </li>
-      <!-- 这里是我自定义的文章摘要 lzg-->
-      <li class="post-summery">
-        <%- partial('_partial/post/custom_summery', { post: post, index: true, class_name: '' }) %>
+        <div class="post_item_title">
+          <%- partial('_partial/post/date', { post: post, class_name: 'meta' }) %>
+          <span><%- partial('_partial/post/title', { post: post, index: true, class_name: '' }) %></span>
+        </div>
+        <!-- 这里是我自定义的文章摘要 lzg-->
+        <div class="post-summery">
+          <%- partial('_partial/post/custom_summery', { post: post, index: true, class_name: '' }) %>
+        </div>
       </li>
     <% }); %>
   </ul>

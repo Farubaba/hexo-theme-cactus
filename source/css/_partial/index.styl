@@ -5,29 +5,36 @@
     margin-bottom: 1rem
     margin-left: 0
     list-style-type: none
+    
+    //add by lzg
+    .post_item_title 
+      margin-top: 30px
 
-    .meta
-      display: block
-      margin-right: 16px
-      min-width: 100px
-      color: $color-meta
-      font-size: 14px
+      .meta
+        display: block
+        margin-right: 16px
+        min-width: 100px
+        color: $color-meta
+        font-size: 14px
 
 @media (min-width: 480px)
   .post-list
     .post-item
-      display: flex
+      //display: flex
       margin-bottom: 5px
 
-      .meta
-        text-align: left
+      .post_item_title  
+        display: flex
 
-      // add by lzg
-      a
-        remove-underline()
-        color: $color-a-normal
-        //&:hover
-         //color: $color-link
+        .meta
+          text-align: left
+
+        // add by lzg
+        a
+          remove-underline()
+          color: $color-a-normal
+          //&:hover
+           //color: $color-link
 
 .project-list
   padding: 0
