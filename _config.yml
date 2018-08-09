@@ -41,8 +41,11 @@ social_links:
 #   - show_all_posts: whether to show all available posts.
 #   - post_count: whether to show only the x most recent posts.
 posts_overview:
+  #控制index page中显示内容是否显示全部条目（配置不需要重新部署）
+  #如果true，则显示全部，post_count将失效
+  #如果false，则只显示post_count指定的条目数，如果指定一个大于all_posts的数量，则全部在一页显示
   show_all_posts: false
-  post_count: 10
+  post_count: 10000
 
 
 ##############################################################################
