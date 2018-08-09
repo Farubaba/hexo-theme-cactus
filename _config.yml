@@ -15,9 +15,9 @@ direction: ltr
 # languages/*.yml
 nav:
   home: /
-  about: /about/
   articles: /archives/
   projects: http://github.com/farubaba
+  about: /about/
 
 
 # Links to your social media accounts.
