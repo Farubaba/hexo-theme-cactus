@@ -17,7 +17,8 @@ nav:
   home: /
   articles: /archives/
   projects: http://github.com/farubaba
-  about: /about/
+  #about: /about/
+  #search: /search/
 
 
 # Links to your social media accounts.
